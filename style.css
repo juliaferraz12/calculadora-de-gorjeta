@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --green-100: #f3f9fa;
+    --green-200: #c5e4e7;
+    --green-300: #93bbbd;
+    --green-400: #7f9d9f;
+    --green-500: #5E7A7D;
+    --green-600: #547878;
+    --green-700: #3D6666;
+    --green-800: #00474B;
+    --light-green: #26C2AE;
+   --with: #FFFFFF;
+    
+
+}
+
+body {
+    background-color:var(--green-200);
+}
