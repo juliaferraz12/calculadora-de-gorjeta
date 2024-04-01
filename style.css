@@ -6,7 +6,6 @@
 }
 
 
-
 :root{
     --green-100: #f3f9fa;
     --green-200: #c5e4e7;
@@ -34,13 +33,14 @@ header {
 main{
     background-color: var(--white);
     padding: 2rem;
+    border-radius: 1.5626 1.5625 0 0;
 }
 
 .conta,
-.gorjeta{
+.gorjeta,
+.pessoas{
     margin-bottom: 2rem;
 }
-
 
 .conta label,
 .gorjeta label,
@@ -83,8 +83,6 @@ main{
 }
 
 
-
-
 .gorjeta div{
     margin-top: 1rem;
 
@@ -117,4 +115,26 @@ main{
 
 .pessoas #erro {
     display: none;
+}
+
+.resultados {
+  background-color: var(--green-800);
+  border-radius: 0.9375rem;
+  padding: 1.5rem;
+}
+
+.resultados div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resultados p{
+    color: var(--green-400);
+    font-size: 0.8125rem;
+}
+
+.resultados p strong{
+     color: var(--white);
+     font-size: 1rem;
 }
